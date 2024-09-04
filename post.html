@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postbook</title>
+    <link rel="stylesheet" href="./poststyles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Hello , Username</h1>
+
+    <button>Logout</button>
+    <section id="post-container">
+        <!--post-->
+        <div class="post">
+            <div class="post-header">
+                <div class="post-user-image">
+                    <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg"
+                    alt="post-user-image">
+
+                </div>
+                <div class="post-username-time">
+                    <p class="post-username">Username</p>
+                    <div class="posted-time">
+                        <span>13</span>
+                        <span>hour ago</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="posted-text">
+                <p class="posted-text-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, harum quae labore minus consequatur, quaerat id sequi numquam accusantium iure inventore optio aliquam deserunt natus veniam vel delectus facere amet.</p>
+            </div>
+            <div class="post-iamge">
+                <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="post-iamge">
+
+            </div>
+
+            <!---comments under a single post-->
+            <div class="comments-holder">
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+
+                <!---new comment input field-->
+                <div class="postComment-holder">
+                    <div class="post-comment-input-field-holder">
+                        <input type="text" 
+                        placeholder="post your comment"
+                         class="postComment-input-field" 
+                         id="postComment-input-for-post-postId1"/>
+                    </div>
+                    <div class="comment-button-holder">
+                        <button id="comment-btn" class="postComment-btn">
+                            Comment
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="post">
+            <div class="post-header">
+                <div class="post-user-image">
+                    <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg"
+                    alt="post-user-image">
+
+                </div>
+                <div class="post-username-time">
+                    <p class="post-username">Username</p>
+                    <div class="posted-time">
+                        <span>13</span>
+                        <span>hour ago</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="posted-text">
+                <p class="posted-text-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, harum quae labore minus consequatur, quaerat id sequi numquam accusantium iure inventore optio aliquam deserunt natus veniam vel delectus facere amet.</p>
+            </div>
+            <div class="post-iamge">
+                <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="post-iamge">
+
+            </div>
+
+            <!---comments under a single post-->
+            <div class="comments-holder">
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+
+                <!---new comment input field-->
+                <div class="postComment-holder">
+                    <div class="post-comment-input-field-holder">
+                        <input type="text" 
+                        placeholder="post your comment"
+                         class="postComment-input-field" 
+                         id="postComment-input-for-post-postId1"/>
+                    </div>
+                    <div class="comment-button-holder">
+                        <button id="comment-btn" class="postComment-btn">
+                            Comment
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="post">
+            <div class="post-header">
+                <div class="post-user-image">
+                    <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg"
+                    alt="post-user-image">
+
+                </div>
+                <div class="post-username-time">
+                    <p class="post-username">Username</p>
+                    <div class="posted-time">
+                        <span>13</span>
+                        <span>hour ago</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="posted-text">
+                <p class="posted-text-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, harum quae labore minus consequatur, quaerat id sequi numquam accusantium iure inventore optio aliquam deserunt natus veniam vel delectus facere amet.</p>
+            </div>
+            <div class="post-iamge">
+                <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="post-iamge">
+
+            </div>
+
+            <!---comments under a single post-->
+            <div class="comments-holder">
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+                <div class="comment">
+                    <div class="comment-user-image">
+                        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="comment-user-image">
+
+                    </div>
+                    <div class="comment-text-container">
+                        <h4>Commented Username</h4>
+                        <p class="comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, hic?</p>
+
+                    </div>
+
+                </div>
+
+                <!---new comment input field-->
+                <div class="postComment-holder">
+                    <div class="post-comment-input-field-holder">
+                        <input type="text" 
+                        placeholder="post your comment"
+                         class="postComment-input-field" 
+                         id="postComment-input-for-post-postId1"/>
+                    </div>
+                    <div class="comment-button-holder">
+                        <button id="comment-btn" class="postComment-btn">
+                            Comment
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
